@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main() {
-    char *arr[] = {"banana", "apple", "cat", "anaconda"};
-    int n = 4;
+    char *arr[] = {"mango", "banana", "apple", "cat", "anaconda", "ant"};
+    int n = 6;
 
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {

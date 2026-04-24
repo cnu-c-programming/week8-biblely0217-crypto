@@ -3,14 +3,10 @@
 
 int main() {
     char *p = "hello";
-    char arr[] = "hello";
+    char arr[6] = "hello";
 
-    printf("sizeof(p): %zu\n", sizeof(p));
-    printf("strlen(p): %zu\n", strlen(p));
-
-    printf("sizeof(arr): %zu\n", sizeof(arr));
-    printf("strlen(arr): %zu\n", strlen(arr));
+    printf("%zu %zu\n", sizeof(p), strlen(p));
+    printf("%zu %zu\n", sizeof(arr), strlen(arr));
 
     return 0;
-
 }
